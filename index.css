@@ -190,6 +190,54 @@ a{
     }
 }
 
+/*media styles max-width: 500px*/
+@media(max-width:500px){
+    body{
+        font-size: 1rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav {
+        flex-direction: column;
+        width: 25%;
+        margin: 2% 0;
+    }
+    nav .home, .about, .contact, .projects{
+        margin: 2% 0;
+    }
+    #s1{
+        flex-direction: column;
+        align-items: center;
+    }
+    img{
+        width: 100%;
+        align-items: center;
+    }
+    .image{
+        width: 90%;
+    }
+    .textone{
+        width: 100%;
+    }
+    .name{
+        width: 100%;
+        margin: 2% 0;
+    }
+    .textone p{
+        margin: 2%;
+        font-size: 2rem;
+    }
+    .img6 p{
+        font-size: 2rem;
+    }
+    .img6{
+        width: 100%;
+    }
+}
+
 
 
 
