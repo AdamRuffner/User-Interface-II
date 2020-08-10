@@ -25,6 +25,7 @@ vertical-align: baseline;
     margin:0;
     padding:0;
     max-width:100%;
+    border: 1px solid black;
 }
 
 html{
@@ -38,6 +39,7 @@ body{
 
 .container{
     padding: 2%;
+    
 }
 
 nav{
@@ -149,6 +151,43 @@ a{
 
 .p1 p{
     padding:2%;
+}
+
+/* adding media styles*/
+/*max width:800px*/
+/*Header */ 
+
+@media(max-width: 800px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav{
+        text-align: center;
+        margin: 0 1%;
+        width: 60%;
+    }
+    .textone{
+        display: flex;
+        margin: 0 auto;
+        padding-top: 0%
+    }
+    .p1{
+        margin: 2%;
+    }
+    h3{
+        margin: 2%;
+    }
+    footer, .like a{
+        margin: 2% 0;
+    }
+    .like{
+        width: 50%;
+    }
+    .img6{
+        width: 50%;
+    }
 }
 
 
